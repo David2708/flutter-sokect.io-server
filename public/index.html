@@ -32,6 +32,13 @@
             console.log('Escuchando ', payload);
         })
 
+        socket.on('active-bands', (payload) => {
+            console.clear();
+            console.table(payload);
+        })
+
+
+
     </script>
 
 </body>

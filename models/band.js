@@ -5,9 +5,9 @@ class Band {
 
     constructor(name = 'no-name'){
 
-        this.id = uuidV4;
+        this.id = uuidV4();
         this.name = name;
-        this.votes = votes;
+        this.votes = 0;
     }
 
 }
